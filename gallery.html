@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highland Park Community Board</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+    <body id="gallery">
+        <header>
+            <div class="main-header">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Highland Park Community Board" width="125">
+                </div>
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="active"><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+    <section id="gallery-section">
+        <h2>Photo Gallery</h2>
+        <ul id="photo-gallery"></ul>
+        <!-- Information Box -->
+        <div id="info-box" style="visibility:hidden;">
+            <h2 id="info-heading"></h2>
+            <p id="info-text"></p>
+            <a href="#" id="close-info-box">Click This To Close</a>
+        </div>       
+    </section>
+
+    <div id="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="Lightbox Image">
+    </div>
+
+        <!-- <section>
+        <main>
+        <section id="photo-gallery-section">
+        <h1 class="gallery-title">Photo Gallery</h1>
+        <div class="gallery-wrapper">
+        <ul id="photo-gallery"></ul>
+        </div>
+        </section>
+        </main>
+
+
+        <div id="infoBox" class="info-box">
+        <button class="close-btn" id="close-info-box">×</button>
+        <h2 id="infoBoxHeading">Title Here</h2>
+        <p id="infoBoxText">Description Here</p>
+        <p id="infoBoxAdditional">Additional info here.</p>
+        </div>
+
+        <div id="lightbox" class="lightbox">
+        <span class="close" id="close-lightbox">×</span>
+        <h2 id="lightbox-heading"></h2>
+        <img id="lightbox-img" src="" alt="Lightbox Image">
+        <p id="lightbox-text"></p>
+        </div>
+
+
+        <h1>Photo Gallery</h1>
+        <div class="gallery-wrapper">
+            <ul id="gallery"></ul>
+        </div>
+        </section> 
+
+
+        <section>
+            <h1 class="gallery-title">Photo Gallery</h1>
+            <div class="gallery-wrapper">
+                <ul id="photo-gallery"></ul>
+            </div>
+        </section>
+
+        <section>
+            <h1 class="gallery-title">Photo Gallery</h1>
+            <div class="gallery-wrapper">
+                    <li class="photo" onclick="showInfoBox('City Agendas', 'Know more about City Council Agendas')">
+                        <img src="images/image2.jpg" alt="City Agendas">
+                        <div class="caption">City Agendas</div>
+                    </li>
+                    <li class="photo" onclick="showInfoBox('Rehabilitation Program', 'Residential Rehabilitation Program')">
+                        <img src="images/image3.jpg" alt="Rehabilitation Program">
+                        <div class="caption">Rehabilitation Program</div>
+                    </li>
+                    <li class="photo" onclick="showInfoBox('Budget', 'Business Planning and Budget')">
+                        <img src="images/image4.jpg" alt="Budget">
+                        <div class="caption">Budget</div>
+                    </li>
+                    <li class="photo" onclick="showInfoBox('Contact Us', 'Contact Us here')">
+                        <img src="images/image5.jpg" alt="Contact Us">
+                        <div class="caption">Contact Us</div>
+                    </li>
+                    <li class="photo" onclick="showInfoBox('FAQ', 'Frequently Asked Questions')">
+                        <img src="images/image6.jpg" alt="FAQ">
+                        <div class="caption">FAQ</div>
+                    </li>
+                    <li class="photo" onclick="showInfoBox('Contract', 'Housing Choice Voucher Program')">
+                        <img src="images/image7.jpg" alt="Contract">
+                        <div class="caption">Contract</div>
+                    </li>
+                    <li class="photo" onclick="showInfoBox('Grant Programs', 'HUD Grant Programs')">
+                        <img src="images/image8.jpg" alt="Grant Programs">
+                        <div class="caption">Grant Programs</div>
+                    </li>
+                    <li class="photo" onclick="showInfoBox('Career', 'Know if you Qualify')">
+                        <img src="images/image9.jpg" alt="Career">
+                        <div class="caption">Career</div>
+                    </li>
+                    <li class="photo" onclick="showInfoBox('Renter', 'Renter Resources')">
+                        <img src="images/image10.jpg" alt="Renter">
+                        <div class="caption">Renter</div>
+                    </li>
+                </ul>
+            </div>
+        </section> -->    
+                <footer>
+                    <p>Contact us at <a href="mailto:info@highlandpark.com">info@highlandpark.com</a></p>
+                    <p>Highland Park Community Board &copy; 2024</p>
+                    <div class="social">
+                        <a href="https://facebook.com" class="fa fa-facebook"></a>
+                        <a href="https://instagram.com" class="fa fa-instagram"></a>
+                        <a href="https://twitter.com" class="fa fa-twitter"></a>
+                    </div>
+                </footer>
+
+                <!--<script src="js/script.js"></script>  Link to JavaScript file -->
+                <script src="js/script.js"></script>
+                <script src="js/gallery.js"></script>
+
+            </body>
+
+</html>
